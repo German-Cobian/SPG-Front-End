@@ -27,10 +27,9 @@ const Login = () => {
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
           <div class="d-flex flex-row justify-content-end">
-          <NavLink to="/chat" activeClassName="active-link" className="btn btn-outline-primary mt-2 mb-5 me-5 py-0" ><span><small>Go to Chat</small></span></NavLink>
+          <NavLink to="/chat" activeClassName="active-link" className="btn btn-outline-primary mt-2 mb-5 me-5 py-0" ><span><small>Login</small></span></NavLink>
           </div>
         </form>
-        <NavLink to="/chat" activeClassName="active-link" className="my-5 ms-5" ><span><small>Go to Chat</small></span></NavLink>
     </main>
   );
 };
