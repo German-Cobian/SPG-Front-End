@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# SPG-Front-End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+n app React en el cual se emula el login a manera de un mero wireframe con redireccion cuando se oprime el botón submit. El wireframe del login cuenta con un logo. Una vez “autenticado” el usuario es redirigido a una pagina de Chat en que consiste de un Sidebar con los vínculos a los distintos contactos (supuestamente del usuario) y dandole click a esos vínculos se muestra, a un lado del sidebar, un supuesto mensaje de el correspondiente contacto. Los contactos y sus mensajes son leídos desde un API falso. El app esta provisto de estilado básico en bootstrap y css.
 
-## Available Scripts
 
-In the project directory, you can run:
+### Instalacion y configuracion
 
-### `npm start`
+* Abra su terminal - Windows: `Win + R`, despues entre `cmd` | Mac: `Command + space`, despues entre `Terminal`
+* Navegue al directorio de su eleccion, usando el comando `cd`
+* Haga ejecutar este comando en la terminal de su OS: `git clone git@github.com:German-Cobian/SPG-Front-End.git` para obtener una copia del proyecto
+* Navegue al directorio del proyecto usando el comando `cd`
+* Acuda a la rama desarrollada del proyecto, ejecutando `git checkout feature1`
+* En el folder clonado, ejecute `npm install`
+* Para iniciar el server, ejecute `npm start`
+* Visite `http://localhost:3001/` en su browser para ingresar en el app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Construido con
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* HTML
+* Css
+* Bootstrap
+* JavaScript
+* React
+* Redux
+* Github workflow
 
-### `npm test`
+## Autor
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👤 **German Cobian**
+* GitHub: [@German Cobian](https://github.com/German-Cobian)
+* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
+* LinkedIn: [@German Cobian](https://www.linkedin.com/in/german-cobian/)
 
-### `npm run build`
+## 🤝 Contribuir
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contribuciones, cuestiones, y sugerencias de funciones adicionales son bienvenidas!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sientase en libertad de echarle un ojo a la [pagina issues](https://github.com/German-Cobian/SPG-Front-End/issues).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Muestre su apoyo
 
-### `npm run eject`
+Si gusta de este proyecto, dele una ⭐️!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📝 Licencia
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[ Licencia MIT](https://github.com/German-Cobian/SPG-Front-End/blob/main/LICENSE).

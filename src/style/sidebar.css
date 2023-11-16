@@ -5,3 +5,8 @@
   height: 100%;
   z-index: 10000;
 }
+
+.link-txt {
+  color: white;
+  text-decoration: none;
+}
