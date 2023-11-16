@@ -14,6 +14,7 @@ const Sidebar = () => {
             <li key={contact.id} className="rounded-4">
               <NavLink
                 to={`/chat/${contact.id}`}
+                id={contact.id}
                 activeClassName="active-link"
                 className="mt-5">
                 <span><small>{contact.name}</small></span>

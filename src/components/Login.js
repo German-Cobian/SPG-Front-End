@@ -7,11 +7,11 @@ import '../style/outlet.css';
 const Login = () => {
 
   return (
-    <main className="background d-flex flex-column">
-        <div className="d-flex flex-row mx-5">
+    <main className="background d-flex flex-column align-items-center">
+        <div className="d-flex flex-row">
           <h3 className="my-5">LOGIN TO YOUR ACCOUNT</h3>
         </div>
-        <form class="border boder-dark rounded mx-5 w-50">
+        <form class="border boder-dark rounded mb-5 mx-5 w-50">
           <img className="logo ps-5 pt-3" src={Logo} alt="Journeyman logo"  />
           <div class="form-group d-flex flex-column align-items-start my-3 mx-5">
             <p><strong>Email address</strong></p>
@@ -27,7 +27,7 @@ const Login = () => {
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
           <div class="d-flex flex-row justify-content-end">
-          <NavLink to="/chat" activeClassName="active-link" className="btn btn-outline-primary mt-2 mb-5 me-5 py-0" ><span><small>Login</small></span></NavLink>
+          <NavLink to="/chat/1" activeClassName="active-link" className="btn btn-outline-primary mt-2 mb-5 me-5 py-0" ><span><small>Login</small></span></NavLink>
           </div>
         </form>
     </main>

@@ -12,7 +12,7 @@ function App() {
       </Routes>
       <Routes>
         <Route element={<WithSidebar />}>
-          <Route path="/chat" element={<Chat />} />
+          <Route path="/chat/:id" element={<Chat />} />
         </Route>
       </Routes>
     </Router>
