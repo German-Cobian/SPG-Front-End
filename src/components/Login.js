@@ -1,4 +1,5 @@
 import { React } from 'react';
+import { NavLink } from 'react-router-dom';
 import Logo from '../assets/Logo.gif';
 import '../style/components.css';
 import '../style/outlet.css';
@@ -6,7 +7,7 @@ import '../style/outlet.css';
 const Login = () => {
 
   return (
-    <main className="container background d-flex flex-column">
+    <main className="background d-flex flex-column">
         <div className="d-flex flex-row mx-5">
           <h3 className="my-5">LOGIN TO YOUR ACCOUNT</h3>
         </div>
@@ -26,11 +27,13 @@ const Login = () => {
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
           <div class="d-flex flex-row justify-content-end">
-          <button type="submit" class="btn btn-outline-primary mt-2 mb-5 me-5 py-0">Log In</button>
+          <NavLink to="/chat" activeClassName="active-link" className="btn btn-outline-primary mt-2 mb-5 me-5 py-0" ><span><small>Go to Chat</small></span></NavLink>
           </div>
         </form>
+        <NavLink to="/chat" activeClassName="active-link" className="my-5 ms-5" ><span><small>Go to Chat</small></span></NavLink>
     </main>
   );
 };
+
 
 export default Login;
