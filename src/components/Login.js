@@ -1,9 +1,10 @@
 import { React } from 'react';
+import '../style/outlet.css';
 
 const Login = () => {
 
   return (
-    <main className="background d-flex flex-column">
+    <main className="container background d-flex flex-column">
         <div className="d-flex flex-row mx-5">
           <h3 className="my-5">LOGIN TO YOUR ACCOUNT</h3>
         </div>
