@@ -1,4 +1,6 @@
 import { React } from 'react';
+import Logo from '../assets/Logo.gif';
+import '../style/components.css';
 import '../style/outlet.css';
 
 const Login = () => {
@@ -9,6 +11,7 @@ const Login = () => {
           <h3 className="my-5">LOGIN TO YOUR ACCOUNT</h3>
         </div>
         <form class="border boder-dark rounded mx-5 w-50">
+          <img className="logo ps-5 pt-3" src={Logo} alt="Journeyman logo"  />
           <div class="form-group d-flex flex-column align-items-start my-3 mx-5">
             <p><strong>Email address</strong></p>
             <input type="email" class="form-control px-5" id="email1" aria-describedby="emailHelp" placeholder="Enter email" />
