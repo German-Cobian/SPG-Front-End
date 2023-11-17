@@ -11,11 +11,11 @@ const Chat = () => {
 
   return (
     <div className="container">
-      <div  className="d-flex flex-column align-items-start ms-5">
+      <div  className="d-flex flex-column align-items-start m-flex">
         <div>
           <h2 className="mt-5">Chat</h2>
         </div>
-        <div className="border border-dark rounded my-2 mx-5">
+        <div className="border border-dark rounded my-2">
           <div class="d-flex flex-row justify-content-between mt-4">
               <p className="ms-5"><strong>{selectedContact.name}</strong></p>
               <p className="text-secondary me-5">{selectedContact.time}</p>
