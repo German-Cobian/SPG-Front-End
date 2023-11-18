@@ -6,3 +6,13 @@
 
 /* Chat */
 
+.resp-form {
+  position: fixed;
+  bottom: 0;
+  width: 76%;
+}
+
+button {
+  border: 0 !important;
+  background: white;
+}

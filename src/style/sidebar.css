@@ -5,8 +5,10 @@
   height: 100%;
   z-index: 10000;
   border-right: 1px black solid;
-  background-color: #313030;
+  background-color: #353563;
 }
+
+/* #313030 */
 
 .link-txt {
   color: white;
